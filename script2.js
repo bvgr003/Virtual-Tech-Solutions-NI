@@ -36,8 +36,9 @@ function getBotResponse(userInput) {
         response = "Our hours of operation are Monday to Fridays, 10am to 6pm and Saturdays 10am to 2pm Central Time.";
     } else if (userInput.includes('pricing') || 
                userInput.includes('prices') || 
+               userInput.includes('charge') ||
                userInput.includes('cost')) {
-        response = "For pricing information, please send an email to callassist18@gmail.com.";
+        response = "For pricing information, please send an email to callassist18@gmail.com or call us at 619-693-6911";
     } else if (userInput.includes('location') ||
                userInput.includes('located') ||
                userInput.includes('address')) {
