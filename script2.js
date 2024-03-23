@@ -31,42 +31,24 @@ function getBotResponse(userInput) {
     userInput = userInput.toLowerCase().trim();
     var response = '';
 
-    switch (userInput) {
-        case 'work times':
-        case 'work hours':
-        case 'open time':
-        case 'hours':
-        case 'hours of operation':
-        case 'times':
-            response = "Our work times are Monday to Fridays, 10am to 6pm and Saturdays 10am to 2pm Central Time.";
-            break;
-        case 'pricing':
-        case 'cost':
-        case 'quote':
-        case 'prices':
-            response = "For pricing information, please send an email to callassist18@gmail.com.";
-            break;
-        case 'location':
-        case 'address':
-            response = "Our office is located at Enitel 1 C.N. 1/2 C.E. M/I, Ticuantepe, Nicaragua.";
-            break;
-        case 'contact info':
-        case 'contact information':
-        case 'phone number':
-            response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
-            break;
-              case 'pricing':
-        case 'services':
-        case 'products':
-        case '':
-            response = "Our services offered are Virtual Assistance, Customer Support, Cold/Warm Calling, App Development, Website Development and Chatbot Development";
-            break;
-        default:
-            response = "I'm sorry, I didn't understand that. Please ask about services, work times, pricing, location, or contact info.";
+    // Check for specific phrases or sentences
+    if (userInput.includes('work times') || userInput.includes('work hours') || userInput.includes('hours of operation')) {
+        response = "Our hours of operation are Monday to Fridays, 10am to 6pm and Saturdays 10am to 2pm Central Time.";
+    } else if (userInput.includes('pricing') || userInput.includes('cost')) {
+        response = "For pricing information, please send an email to callassist18@gmail.com.";
+    } else if (userInput.includes('location') || userInput.includes('address')) {
+        response = "Our office is located at Enitel 1 C.N. 1/2 C.E. M/I, Ticuantepe, Nicaragua.";
+    } else if (userInput.includes('contact info') || userInput.includes('contact information') || userInput.includes('phone number')) {
+        response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
+    } else if (userInput.includes('services') || userInput.includes('products') || userInput.includes('services')) {
+        response = "Our services offered are Virtual Assistance, Customer Support, Cold/Warm Calling, App Development, Website Development and Chatbot Development";
+    } else {
+        response = "I'm sorry, I didn't understand that. Please ask about work times, pricing, location, or contact info.";
     }
 
     return response;
 }
+
 
 // Initial message
 addMessage(`Hello, I am ${botName}! How can I assist you today?`, 'bot');
