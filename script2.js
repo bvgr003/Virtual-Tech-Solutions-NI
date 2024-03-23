@@ -51,11 +51,13 @@ function getBotResponse(userInput) {
     } else if (userInput.includes('company') || userInput.includes('company') ||
         userInput.includes('business')) {
         response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include virtual assistance, customer support, data entry, cold and warm calling, graphics design, app and website development. With our diverse range of services, we are committed to helping you succeed in today's competitive digital landscape.";
+    } else if (userInput.includes('bye') || userInput.includes('goodbye') || userInput.includes('chow') || userInput.includes('thank you')) {
+        response = "Goodbye! Thank you for visiting us. Please feel free to visit us anytime.";
     }
     
     // Initial message answer in no understanding
     else {
-        response = "I'm sorry, I didn't understand that. Please ask about our company, work times, pricing, location, contact info or services offered.";
+        response = "I'm sorry, I didn't understand that. Please ask about our company, hours of operation, pricing, location, contact info or services offered.";
     }
 
     return response;
