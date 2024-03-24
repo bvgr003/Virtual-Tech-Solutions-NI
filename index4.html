@@ -7,7 +7,9 @@
     <meta name="author" content="B.V. Guerrero Reyes">
     <title>Graphics Design/App and Website Development</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style3.css">
     <script defer src="script.js"></script>
+    <script defer src="script2.js"></script>
 </head>
 <body>
     <header class="header">
@@ -47,14 +49,24 @@
 
                     <p>Are you ready to embark on a creative journey that will elevate your brand's visual identity and digital presence? Let's collaborate to turn your ideas into designs and solutions that leave a mark. Reach out today, and together, let's redefine the way the world sees and interacts with your brand.</p>
 
-                </div>
+                
                 <br><br>
+                </div>
             </div>
         </div>
-    </main>
+               <br><br>
+    <button id="chat-button">Open/Close Chat</button>
+                <div class="chat-container">
+                    <h>Chat</h>
+                    <div id="chat-box"></div>
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-button" onclick="sendMessage()">Send</button>
+                </div>
     <div style="height: 0px; background-color: #1C4966;">
     </div>
     <button id="scrollToTop">Top</button>
+    
+    </main>
 </body>
 
 </html>

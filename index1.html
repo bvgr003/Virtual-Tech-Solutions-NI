@@ -7,7 +7,9 @@
     <meta name="author" content="B.V. Guerrero Reyes">
     <title>Virtual Assistance</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
     <script defer src="script.js"></script>
+    <script defer src="script2.js"></script>
 </head>
 
 <body>
@@ -53,10 +55,18 @@
                 </div>
             </div>
         </div>
-    </main>
+        <br><br>
+    <button id="chat-button">Open/Close Chat</button>
+                <div class="chat-container">
+                    <h>Chat</h>
+                    <div id="chat-box"></div>
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-button" onclick="sendMessage()">Send</button>
+                </div>
     <div style="height: 0px; background-color: #1C4966;">
     </div>
     <button id="scrollToTop">Top</button>
+    </main>
 </body>
 
 </html>

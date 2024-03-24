@@ -6,8 +6,11 @@
     <link rel="icon" type="img/png" href="Logos/virtualtechsolutions.png">
     <meta name="author" content="B.V. Guerrero Reyes">
     <title>Full Stack Software Developer</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="style3.css">
     <script defer src="script.js"></script>
+    <script defer src="script2.js"></script>
 </head>
 
 <body>
@@ -25,7 +28,7 @@
 
         <span style="position: relative; left: 350px; top: 500px; bottom: 0px; font-size: 75px; color: white; " onclick="openNav()">&#9776</span>
     </header>
-
+<main>
     <br><br>
     <div class="img-border">
 
@@ -49,8 +52,19 @@
             
         <br><br>
     </div>
-
+             <br><br>
+    <button id="chat-button">Open/Close Chat</button>
+                <div class="chat-container">
+                    <h>Chat</h>
+                    <div id="chat-box"></div>
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-button" onclick="sendMessage()">Send</button>
+                </div>
+    <div style="height: 0px; background-color: #1C4966;">
+    </div>
     <button id="scrollToTop">Top</button>
+    
+    </main>
 
 </body>
 

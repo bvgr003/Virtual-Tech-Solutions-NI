@@ -48,6 +48,7 @@ button {
 .border {
     border: 2px solid white;
     border-radius: 10px;
+    height: auto;
 }
 
 h1,
@@ -169,6 +170,13 @@ p {
     border-radius: 10px;
     text-align: center;
     height: 300px;
+}
+
+.chat-bot {
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    height: 75px;
 }
 
 
