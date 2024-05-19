@@ -21,10 +21,10 @@
 .chat-container {
     display: none;
     position: fixed;
-    bottom: 150px; /* Adjust as needed */
+    bottom: 150px; 
     right: 20px;
     height: 500px;
-    width: 400px; /* Adjust width as needed */
+    width: 400px; 
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -33,9 +33,9 @@
     padding-bottom: 50px;
     font-family: Arial, sans-serif;
     z-index: 1000;
-    margin-top: 10px; /* Add margin to separate from the open button */
-    max-height: 250px; /* Set a maximum height for the chatbox */
-    overflow-y: auto; /* Add vertical scroll when content exceeds the height */
+    margin-top: 10px; 
+    max-height: 250px; 
+    overflow-y: auto; 
 }
 
 
@@ -72,13 +72,13 @@
     top: 20px;
     height: 50px;
     width: 100px;
-    padding: 3px 8px; /* Adjust padding as needed */
+    padding: 3px 8px; 
     border: none;
     background-color: #007bff;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px; 
 }
 
 
