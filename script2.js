@@ -34,18 +34,18 @@ function getBotResponse(userInput) {
     // Check for specific phrases or sentences
     if (userInput.includes('work times') || userInput.includes('work hours') || userInput.includes('hours of operation')) {
         response = "Our hours of operation are Monday to Fridays, 10am to 6pm and Saturdays 10am to 2pm Central Time.";
-    } else if (userInput.includes('pricing') || 
-               userInput.includes('prices') || 
-               userInput.includes('charge') ||
-               userInput.includes('cost')) {
+    } else if (userInput.includes('pricing') ||
+        userInput.includes('prices') ||
+        userInput.includes('charge') ||
+        userInput.includes('cost')) {
         response = "For pricing information, please send an email to callassist18@gmail.com or call us at 619-693-6911";
     } else if (userInput.includes('location') ||
-               userInput.includes('located') ||
-               userInput.includes('address')) {
+        userInput.includes('located') ||
+        userInput.includes('address')) {
         response = "Our office is located at Enitel 1 C.N. 1/2 C.E. M/I, Ticuantepe, Nicaragua.";
     } else if (userInput.includes('contact info') || userInput.includes('contact information') ||
-               userInput.includes('contact') ||
-               userInput.includes('phone number')) {
+        userInput.includes('contact') ||
+        userInput.includes('phone number')) {
         response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
     } else if (userInput.includes('services') || userInput.includes('products') || userInput.includes('services')) {
         response = "Our services offered are Virtual Assistance, Customer Support, Cold/Warm Calling, App Development, Website Development and Chatbot Development";
@@ -55,7 +55,7 @@ function getBotResponse(userInput) {
     } else if (userInput.includes('bye') || userInput.includes('goodbye') || userInput.includes('chow') || userInput.includes('thank you')) {
         response = "Goodbye! Thank you for visiting us. Please feel free to visit us anytime.";
     }
-    
+
     // Initial message answer in no understanding
     else {
         response = "I'm sorry, I didn't understand that. Please ask about our company, hours of operation, pricing, location, contact info or services offered.";
