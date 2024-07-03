@@ -185,3 +185,26 @@ li {
     height: 75px;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block; 
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  background-color: rgba(0, 0, 0, 0); 
+  padding: 10px;
+  font-size: 35px; 
+  text-align: center;
+  width: 100%; 
+}
+
+
