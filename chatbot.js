@@ -51,7 +51,7 @@ function getBotResponse(userInput) {
         userInput.includes('phone number')) {
         response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
     } else if (userInput.includes('services') || userInput.includes('products') || userInput.includes('services')) {
-        response = "Our services offered are Virtual Assistance, Customer Support, Cold/Warm Calling, App Development, Website Development and Chatbot Development";
+        response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, Google Digital Marketing & E-commerce, WordPress Design and Development!";
     } else if (userInput.includes('company') || userInput.includes('company') ||
         userInput.includes('business')) {
         response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include virtual assistance, customer support, data entry, cold and warm calling, graphics design, app and website development. With our diverse range of services, we are committed to helping you succeed in today's competitive digital landscape.";

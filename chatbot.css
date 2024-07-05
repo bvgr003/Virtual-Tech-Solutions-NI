@@ -25,9 +25,9 @@
     right: 20px;
     height: 500px;
     width: 400px;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background-color: #FF7F50;
+    border: 1px solid black;
+    border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
     padding-bottom: 50px;
@@ -48,12 +48,12 @@
 }
 
 .user {
-    background-color: #007bff;
+    background-color: #008080;
     color: white;
 }
 
 .bot {
-    background-color: orange;
+    background-color: cadetblue;
     color: #333;
 }
 
