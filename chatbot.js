@@ -54,7 +54,7 @@ function getBotResponse(userInput) {
         response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, Google Digital Marketing & E-commerce, WordPress Design and Development!";
     } else if (userInput.includes('company') || userInput.includes('company') ||
         userInput.includes('business')) {
-        response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include virtual assistance, customer support, data entry, cold and warm calling, graphics design, app and website development. With our diverse range of services, we are committed to helping you succeed in today's competitive digital landscape.";
+        response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include Full Stack Software Development, AI-Assisted Solutions, Google Digital Marketing & E-commerce, WordPress Design and Development!";
     } else if (userInput.includes('bye') || userInput.includes('goodbye') || userInput.includes('chow') || userInput.includes('thank you')) {
         response = "Goodbye! Thank you for visiting us. Please feel free to visit us anytime.";
     }
