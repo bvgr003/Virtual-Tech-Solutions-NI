@@ -120,17 +120,18 @@ li {
 #scrollToTop {
     display: none;
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 0px;
+    left: 0px;
     z-index: 99;
-    border: none;
+    border: transparent;
     outline: none;
-    background-color: #1C4966;
-    color: white;
+    background-color: transparent;
+    color: transparent;
     cursor: pointer;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 35px;
+    height: 135px;
 }
 
 .badges {
@@ -171,13 +172,6 @@ li {
     border-radius: 10px;
     text-align: center;
     height: 300px;
-}
-
-.chat-bot {
-    border: 2px solid white;
-    border-radius: 10px;
-    text-align: center;
-    height: 75px;
 }
 
 .image-container {

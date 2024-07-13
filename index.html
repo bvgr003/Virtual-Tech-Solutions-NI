@@ -104,12 +104,19 @@
                 <img style="height: 100px; width: 100px; object-fit: cover" src="Logos/twitter.jpg" alt="">
             </a>
         </footer>
-        <button id="chat-button">Open/Close Chat</button>
-        <div class="chat-container">
+        <div id="chat-button">
+            <img src="Icons/chatbot.jpg" alt="Chatbot Icon">
+        </div>
+
+        <!-- Chat container -->
+        <div class="chat-container" id="chat-container">
             <h1>Chat with Us</h1>
             <div id="chat-box"></div>
             <input type="text" id="user-input" placeholder="Type your message...">
             <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+        <div id="scrollToTop">
+            <img style="border: none;" src="Icons/scroll.png" alt="Chatbot Icon">
         </div>
         <div style="height: 0px; background-color: #1C4966;"></div>
         <button id="scrollToTop">Top</button>
