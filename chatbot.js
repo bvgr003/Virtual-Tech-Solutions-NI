@@ -62,7 +62,7 @@ function getBotResponse(userInput) {
         response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
         // Services response message
     } else if (userInput.includes('services') || userInput.includes('products') || userInput.includes('services')) {
-        response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, Google Digital Marketing & E-commerce, WordPress Design and Development!";
+        response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, IT Support, Google Digital Marketing & E-commerce and WordPress Design and Development!";
         // Company info response message
     } else if (userInput.includes('company') || userInput.includes('company') ||
         userInput.includes('business')) {
