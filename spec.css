@@ -53,6 +53,18 @@ footer {
     transition: 0.5s;
 }
 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
 .overlay-content {
     position: relative;
     top: 25%;
@@ -85,17 +97,18 @@ footer {
 #scrollToTop {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 0px;
+    left: 0px;
     z-index: 99;
-    border: none;
+    border: transparent;
     outline: none;
-    background-color: #1C4966;
-    color: white;
+    background-color: transparent;
+    color: transparent;
     cursor: pointer;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 35px;
+    height: 135px;
 }
 
 .img-border {

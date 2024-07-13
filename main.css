@@ -13,6 +13,35 @@ img {
     margin-right: 25px;
 }
 
+.img-container {
+    font-size: 0;
+    /* Removes extra space below images */
+    line-height: 0;
+    /* Ensures no extra line-height space affects alignment */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows for wrapping if needed */
+    gap: 20px;
+    /* Creates 20px spacing between images both horizontally and vertically */
+    justify-content: center;
+    /* Centers images horizontally within the container */
+    align-items: center;
+    /* Centers images vertically within the container */
+}
+
+.img-container img {
+    display: inline-block;
+    vertical-align: top;
+    /* Aligns images to the top */
+    margin: 0 10px 10px 0;
+    /* Creates 20px total spacing horizontally and vertically */
+}
+
+.img-container img:nth-child(2) {
+    margin-right: 0;
+    /* Removes the margin on the right of the second image */
+}
+
 button {
     padding: 10px;
     border-radius: 10px;
@@ -50,7 +79,8 @@ main {
 
 .profile-border,
 .border-services,
-.border {
+.border,
+.img-border {
     border: 2px solid white;
     border-radius: 10px;
     height: auto;
@@ -195,4 +225,3 @@ li {
     text-align: center;
     width: 100%;
 }
-
