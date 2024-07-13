@@ -49,7 +49,7 @@ function getBotResponse(userInput) {
         userInput.includes('specializations') ||
         userInput.includes('specialize') ||
         userInput.includes('cost')) {
-        response = "At Virtual Tech Solutions NI, we specialize in Full Stack Software Development, IT Support, Machine Learning & AI, Digital Marketing & E-commerce, and Custom Software Development.";
+        response = "At Virtual Tech Solutions NI, we specialize in Full Stack Software Development, IT Support, Machine Learning & AI, Digital Marketing & E-commerce, and WordPress Design/Development.";
         // Location response message
     } else if (userInput.includes('location') ||
         userInput.includes('located') ||
@@ -62,11 +62,11 @@ function getBotResponse(userInput) {
         response = "You can contact us at callassist18@gmail.com or call us at 619-693-6911.";
         // Services response message
     } else if (userInput.includes('services') || userInput.includes('products') || userInput.includes('services')) {
-        response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, IT Support, Google Digital Marketing & E-commerce and WordPress Design and Development!";
+        response = "Our services offered are Full Stack Software Development, AI-Assisted Solutions, IT Support, Google Digital Marketing & E-commerce, WordPress Design/Development and Custom Software Development!";
         // Company info response message
     } else if (userInput.includes('company') || userInput.includes('company') ||
         userInput.includes('business')) {
-        response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include Full Stack Software Development, AI-Assisted Solutions, Google Digital Marketing & E-commerce, WordPress Design and Development!";
+        response = "Virtual Tech Solutions NI provides a comprehensive suite of services to meet your digital needs. Our services offered include Full Stack Software Development, AI-Assisted Solutions, IT Support, Google Digital Marketing & E-commerce, WordPress Design/Development and Custom Software Development!";
         // Goodbye response message
     } else if (userInput.includes('bye') || userInput.includes('goodbye') || userInput.includes('chow') ||
         userInput.includes('thank you')) {
