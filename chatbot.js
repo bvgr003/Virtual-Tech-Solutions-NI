@@ -74,6 +74,7 @@ function getBotResponse(userInput) {
         // Salutation response message
     } else if (userInput.includes('hi') ||
         userInput.includes('hi') ||
+        userInput.includes('hello') ||
         userInput.includes('good evening') ||
         userInput.includes('good afternoon') ||
         userInput.includes('good morning')) {
