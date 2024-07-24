@@ -15,18 +15,12 @@ img {
 
 .img-container {
     font-size: 0;
-    /* Removes extra space below images */
     line-height: 0;
-    /* Ensures no extra line-height space affects alignment */
     display: flex;
     flex-wrap: wrap;
-    /* Allows for wrapping if needed */
     gap: 20px;
-    /* Creates 20px spacing between images both horizontally and vertically */
     justify-content: center;
-    /* Centers images horizontally within the container */
     align-items: center;
-    /* Centers images vertically within the container */
 }
 
 .img-container img {
@@ -34,12 +28,10 @@ img {
     vertical-align: top;
     /* Aligns images to the top */
     margin: 0 0px 0px 0;
-    /* Creates 20px total spacing horizontally and vertically */
 }
 
 .img-container img:nth-child(2) {
     margin-right: 0;
-    /* Removes the margin on the right of the second image */
 }
 
 button {
@@ -165,6 +157,12 @@ li {
     height: 135px;
 }
 
+#scrollToTop img {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+}
+
 .badges {
     height: 500px;
     width: 500px;
@@ -197,6 +195,20 @@ li {
     border-radius: 10px;
     display: block;
 }
+
+.social-media img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
 
 .google-border {
     border: 2px solid white;

@@ -6,12 +6,9 @@
     width: 100px;
     height: 100px;
     background: none;
-    /* Remove background color */
     border: none;
-    /* Remove border */
     cursor: pointer;
     padding: 0;
-    /* Remove padding */
 }
 
 #chat-button img {
