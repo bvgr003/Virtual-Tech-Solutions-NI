@@ -54,8 +54,8 @@ body {
 }
 
 .logo {
-    max-width: 100px;
-    height: auto;
+    max-width: 200px;
+    max-height: 200px;
     transition: transform 0.3s ease;
 }
 
@@ -146,7 +146,7 @@ main {
 .contact-info {
     border: 2px solid white;
     border-radius: 10px;
-    height: 500px;
+    height: 550px;
     width: 100%;
 }
 
@@ -276,4 +276,23 @@ li {
     font-size: 35px;
     text-align: center;
     width: 100%;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #096bb2;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: orange;
+    color: white;
 }
