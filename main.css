@@ -21,7 +21,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3; /* Increased z-index to ensure the overlay is on top */
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
@@ -97,7 +97,7 @@ body {
 img {
     height: 90%;
     width: 90%;
-    object-fit: contain;
+    object-fit: fill;
     margin: 0 auto;
     border: 2px solid white;
     border-radius: 10px;
