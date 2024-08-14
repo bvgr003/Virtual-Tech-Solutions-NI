@@ -21,7 +21,8 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 3; /* Increased z-index to ensure the overlay is on top */
+    z-index: 3;
+    /* Increased z-index to ensure the overlay is on top */
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
@@ -103,7 +104,8 @@ img {
     border-radius: 10px;
     margin-right: 25px;
     transition: transform 0.3s ease;
-    z-index: 2; /* Ensure the image is on top */
+    z-index: 2;
+    /* Ensure the image is on top */
     position: relative;
 }
 
@@ -148,7 +150,7 @@ main {
 .contact-info {
     border: 2px solid white;
     border-radius: 10px;
-    height: 550px;
+    height: 600px;
     width: 100%;
 }
 
@@ -215,17 +217,19 @@ li {
     margin-bottom: auto;
 }
 
-.badges-border,
 .social-media {
     border: 2px solid white;
     height: 750px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: auto;
+    margin-right: auto;
+    /* Center the element horizontally */
     text-align: center;
     border-radius: 10px;
     display: block;
 }
+
 
 .social-media {
     border: 2px solid white;
@@ -236,6 +240,10 @@ li {
     text-align: center;
     border-radius: 10px;
     display: block;
+}
+
+.badges-border {
+    text-align: center;
 }
 
 .social-media img {
@@ -267,7 +275,8 @@ li {
     display: block;
     width: 100%;
     height: auto;
-    z-index: 2; /* Ensure image is on top */
+    z-index: 2;
+    /* Ensure image is on top */
     position: relative;
 }
 
@@ -331,7 +340,8 @@ img {
 .image-container img {
     width: 100%;
     height: auto;
-    z-index: 2; /* Ensure image is on top */
+    z-index: 2;
+    /* Ensure image is on top */
     position: relative;
 }
 
@@ -345,6 +355,18 @@ img {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     text-align: center;
-    z-index: 1; /* Ensure text is beneath the image */
+    z-index: 1;
+    /* Ensure text is beneath the image */
 }
 
+.sign {
+    background-color: #FFA500;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 25%;
+    max-height: 75%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 75px;
+}
