@@ -356,8 +356,11 @@ img {
 
 .sign {
     background-color: #FFA500;
+    background-image: url(Images/fullstackdeveloper.png);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
-    background-image: url(Images/bvgre.png);
     text-align: center;
     margin: 20px auto;
     width: 35%;
