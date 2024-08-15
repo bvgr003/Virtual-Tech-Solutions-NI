@@ -357,6 +357,7 @@ img {
 .sign {
     background-color: #FFA500;
     color: white;
+    background-image: url(Images/bvgre.png);
     text-align: center;
     margin: 20px auto;
     width: 35%;
