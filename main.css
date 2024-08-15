@@ -1,6 +1,10 @@
 body {
     text-align: center;
     background-color: darkslategray;
+    background-image: url();
+    background-size: fill;
+    background-repeat: repeat;
+    background-position: center;
 }
 
 .header {
@@ -354,18 +358,3 @@ img {
     z-index: 1;
 }
 
-.sign {
-    background-color: #FFA500;
-    background-image: url(Images/fullstackdeveloper.png);
-    background-size: fill;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    text-align: center;
-    margin: 20px auto;
-    width: 35%;
-    max-height: 75%;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 75px;
-}
