@@ -313,6 +313,12 @@ li {
     transform: scale(1.1);
 }
 
+.icons a {
+  text-decoration: none;
+  border: none; 
+  outline: none; 
+}
+
 img:hover {
     transform: scale(1.1);
 }
