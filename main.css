@@ -150,7 +150,7 @@ main {
 }
 
 .contact-info {
-    border: 2px solid silver;
+    border: 2px solid transparent;
     border-radius: 10px;
     height: 600px;
     width: 100%;
@@ -160,7 +160,7 @@ main {
 .border-services,
 .border,
 .img-border {
-    border: 2px solid silver;
+    border: 2px solid transparent;
     border-radius: 10px;
     height: auto;
     padding-bottom: 40px;
@@ -221,7 +221,7 @@ li {
 }
 
 .social-media {
-    border: 2px solid silver;
+    border: 2px solid transparent;
     height: 475px;
     padding-top: 20px;
     padding-bottom: 20px;
