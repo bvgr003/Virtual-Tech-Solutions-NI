@@ -351,3 +351,8 @@ img {
     text-align: center;
     z-index: 1;
 }
+
+ hr {
+      border: 2px solid silver;
+      border-radius: 10px;
+  }
