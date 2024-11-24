@@ -16,7 +16,6 @@ function sendMessage() {
     var botResponse = getBotResponse(userInput);
     addMessage(botResponse, 'bot');
     document.getElementById('user-input').value = '';
-    // Remove the toggleChatbot() call here
 }
 
 function addMessage(message, sender) {
@@ -31,7 +30,6 @@ function getBotResponse(userInput) {
     userInput = userInput.toLowerCase().trim();
     var response = '';
 
-    // Check for specific phrases or sentences
     // Hours of operation response message
     if (userInput.includes('work times') || userInput.includes('work hours') ||
         userInput.includes('hours') ||

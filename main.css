@@ -140,6 +140,7 @@ button {
 
 main {
     text-align: center;
+    padding: 10px;
 }
 
 .footer {
@@ -314,9 +315,9 @@ li {
 }
 
 .icons a {
-  text-decoration: none;
-  border: none; 
-  outline: none; 
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 img:hover {
@@ -352,7 +353,7 @@ img {
     z-index: 1;
 }
 
- hr {
-      border: 2px solid silver;
-      border-radius: 10px;
-  }
+hr {
+    border: 2px solid silver;
+    border-radius: 10px;
+}
